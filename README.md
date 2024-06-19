@@ -181,8 +181,8 @@ _____
 
    Step 3: Complete Installation
       1. The installer will begin the installation process. This may take a few minutes.
-      2. Once the installation is complete, you will see a screen that says **Setup was successful**. SELECT Disable PATH length which will remove the length allowed. Click on **Close**.
-      ![alt text](python-installer-setup-successful.png)
+      2. Once the installation is complete, you will see a screen that says **Setup was successful**. SELECT Disable PATH length which will remove the length allowed. 
+      Click on **Close**. ![alt text](python-installer-setup-successful.png)
 
    Step 4: Verify Installation
       1. Open a command prompt (Windows).
