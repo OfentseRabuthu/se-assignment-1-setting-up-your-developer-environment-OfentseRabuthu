@@ -18,8 +18,8 @@ This assignment aims to familiarize you with the tools and configurations necess
 
    1.Check System Requirements
 
-   Before downloading Windows 11, ensure your system meets the following requirements:
-
+   Before downloading Windows 11, ensure your system meets the following requirements
+   :
       - Processor: 1 GHz or faster with 2 or more cores on a compatible 64-bit processor.
       - RAM: 4 GB or more.
       - Storage: 64 GB or more.
@@ -28,6 +28,7 @@ This assignment aims to familiarize you with the tools and configurations necess
       - Graphics card: DirectX 12 compatible graphics / WDDM 2.x.
       - Display: >9” with HD Resolution (720p).
       - Internet connection: Internet connectivity is necessary to perform updates and to download and take advantage of some features.
+  
    2.Backup Your Data
 
    Before starting the installation, back up all important data to avoid any data loss during the installation process.
@@ -71,55 +72,41 @@ This assignment aims to familiarize you with the tools and configurations necess
    3. Connect to the internet to activate Windows and check for updates.
 
    Troubleshooting Tips.
-
-      - If you encounter any issues during installation, ensure your system meets the requirements and that the bootable USB was created correctly.
+       - If you encounter any issues during installation, ensure your system meets the requirements and that the bootable USB was created correctly.
       - For activation issues, verify that your product key is correct and try activating again.
       - For any driver issues, download the latest drivers from the manufacturer’s website.
-
-   By following these steps, you should be able to successfully download, install, and set up Windows 11 on your computer.
+  By following these steps, you should be able to successfully download, install, and set up Windows 11 on your computer.
 _____
 
 **2.Install a Text Editor or Integrated Development Environment (IDE):**
    **Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. <https://code.visualstudio.com/Download>**
 
    Step 1: Download Visual Studio Code
-
       1. Navigate to the Official Website: 
       - Open your web browser and navigate to the official Visual Studio Code website: <https://code.visualstudio.com/>
       -The website should automatically detect your operating system and offer the appropriate version for download.
       ![alt text](Official-Page.png)
 
    Step 2: Install Visual Studio Code
-
       1. **Open the Installer**:
          - The file name format (`VSCodeUserSetup-x64-(VERSION.).exe`) is typical for VS Code installers.
 
    Step 2: Install Visual Studio Code
-
       1. Once the download is complete, open the downloaded installer file (e.g., `VSCodeUserSetup-x64-1.[VERSION]].exe`).
-
       2. The Visual Studio Code Setup Wizard will open. Click **Next** to continue.
-
       3. Read and accept the license agreement, then click **Next**.
       ![alt text](Accept-License-1.png)
-
       4. Choose the installation location and click **Next**. The default location is usually fine for most users.
-
       5. Select the additional tasks you would like the installer to perform. It's generally a good idea to check the options for:
          - Add "Open with Code" action to Windows Explorer file context menu
          - Add "Open with Code" action to Windows Explorer directory context menu
          - Register Code as an editor for supported file types
          - Add to PATH (this allows you to open VS Code from the command line)
-
       After selecting your preferences, click **Next**.
       ![alt text](Click-Next.png)
-
       6. Click **Install** to begin the installation process.
-
       ![alt text](Click-Install.png)
-
-      7. Once the installation is complete, click **Finish**. You can choose to launch Visual Studio Code immediately by checking the *aunch Visual Studio Code option.
-
+      7. Once the installation is complete, click **Finish**. You can choose to launch Visual Studio Code immediately by checking the Launch Visual Studio Code option.
     ![alt text](Finish.png)
 
    Conclusion
@@ -179,8 +166,7 @@ _____
 4.**Install Necessary Programming Languages and Runtimes:**
   **Instal Python from <http://wwww.python.org> programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.**
 
-   Step 1: Download Python
-
+   Step 1: Download Pytho
       1. Open your web browser and go to the official Python website: python.org
       <http://www.python.org>.
       2. Click on the **Downloads** tab.
@@ -188,21 +174,17 @@ _____
       3. The website will automatically suggest the latest version of Python for your operating system. Click on the **Download Python [version]** button.
 
    Step 2: Run the Installer
-
       1. Once the download is complete, open the installer.
       2. You will see a setup window. **Check the box that says "Add Python to PATH"**. This is crucial as it will allow you to run Python from the command line.
       3. Click on **INSTALL NOW**
       ![alt text](python-installer-admin-privileges-and-path.png)
 
    Step 3: Complete Installation
-
       1. The installer will begin the installation process. This may take a few minutes.
       2. Once the installation is complete, you will see a screen that says **Setup was successful**. SELECT Disable PATH length which will remove the length allowed. Click on **Close**.
-
       ![alt text](python-installer-setup-successful.png)
 
    Step 4: Verify Installation
-
       1. Open a command prompt (Windows).
       2. Type 'python --version' and press Enter. You should see the version of Python you installed.
       3. To further verify, you can also start the Python interpreter by typing 'python' and pressing Enter. You should see the Python interactive shell start.
@@ -312,35 +294,29 @@ Step 2: Installing Essential Extensions
          - This extension enhances the support for HTML and CSS, including CSS class and id attribute completion.
 
 2.**Linting**
-
       - **ESLint**:
          - As mentioned, ESLint is a powerful tool for identifying and reporting on patterns in JavaScript.
          - Search for ESLint.
          - Click **Install**.
-
       - **Pylint for Python**:
          - Search for `Python` by Microsoft (if not already installed).
          - Ensure linting is enabled in the settings.
 
 3.**Code Formatting**
-
       - **Prettier**:
          - Search for Prettier - Code formatter.
          - Click **Install**.
          - Prettier is an opinionated code formatter that supports many languages and integrates with VS Code.
-
       - **Beautify**:
          - Search for Beautify.
          - Click **Install**.
          - This extension allows you to format your code in various languages, including JavaScript, JSON, CSS, and HTML.
 
 4.**Version Control Integration**
-
       - **GitLens**:
          - Search for GitLens — Git supercharged.
          - Click **Install**.
          - GitLens enhances the built-in Git capabilities of VS Code. It helps you visualize code authorship, explore changes over time, and gain insights into code.
-
       - **GitHub**:
          - Search for `GitHub Pull Requests and Issues`.
          - Click **Install**.
